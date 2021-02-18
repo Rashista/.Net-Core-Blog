@@ -13,3 +13,16 @@ E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Blog.RazorTargetAssemblyInfo.c
 E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Blog.dll
 E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Blog.pdb
 E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Blog.genruntimeconfig.cache
+E:\C#\.Net-Core-Blog\Blog\bin\Debug\netcoreapp2.1\Blog.Views.dll
+E:\C#\.Net-Core-Blog\Blog\bin\Debug\netcoreapp2.1\Blog.Views.pdb
+E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Blog.TagHelpers.input.cache
+E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Blog.TagHelpers.output.cache
+E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Blog.RazorCoreGenerate.cache
+E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Razor\Views\Home\Post.cshtml.g.cs
+E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ViewImports.cshtml.g.cs
+E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Blog.RazorTargetAssemblyInfo.cs
+E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Blog.Views.pdb
+E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Blog.csproj.CopyComplete
