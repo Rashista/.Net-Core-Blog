@@ -1,0 +1,15 @@
+E:\C#\.Net-Core-Blog\Blog\bin\Debug\netcoreapp2.1\Blog.deps.json
+E:\C#\.Net-Core-Blog\Blog\bin\Debug\netcoreapp2.1\Blog.runtimeconfig.json
+E:\C#\.Net-Core-Blog\Blog\bin\Debug\netcoreapp2.1\Blog.runtimeconfig.dev.json
+E:\C#\.Net-Core-Blog\Blog\bin\Debug\netcoreapp2.1\Blog.dll
+E:\C#\.Net-Core-Blog\Blog\bin\Debug\netcoreapp2.1\Blog.pdb
+E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Blog.csprojAssemblyReference.cache
+E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Blog.AssemblyInfoInputs.cache
+E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Blog.AssemblyInfo.cs
+E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Blog.csproj.CoreCompileInputs.cache
+E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Blog.RazorAssemblyInfo.cache
+E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Blog.RazorAssemblyInfo.cs
+E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Blog.RazorTargetAssemblyInfo.cache
+E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Blog.dll
+E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Blog.pdb
+E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Blog.genruntimeconfig.cache
