@@ -13,7 +13,13 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#line 1 "E:\C#\.Net-Core-Blog\Blog\Views\_ViewImports.cshtml"
+using Blog.Models;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1c546f401d85e669b6e677eed5d36b7d6ae1dbfa", @"/Views/Home/Post.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6f3a081a5158c940fb18fb0baf19c54e0dfb04cf", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Post : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
