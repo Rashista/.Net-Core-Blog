@@ -11,8 +11,10 @@ namespace Blog.Data.Repository
     {
         Post GetPost(int id);
         List<Post> GetAllPosts(int id);
-        bool AddPost(Post post);
-        bool RemovePost(int id);
-        bool UpdatePost(Post post);
+        void AddPost(Post post);
+        void RemovePost(int id);
+        void UpdatePost(Post post);
+
+        Task<bool> SaveChangesAsync();
     }
 }
