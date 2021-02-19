@@ -35,8 +35,11 @@ namespace Blog.Controllers
         }
 
         [HttpPost]
-        public IActionResult Edit(Post post)
+        public async Task<IActionResult> Edit(Post post)
         {
+            _ctx.Add(post);
+            await _ctx.SaveChangesAsync();
+
             return RedirectToAction("Index");
         }
     }
