@@ -22,7 +22,8 @@ namespace Blog.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var posts = _repo.GetAllPosts();
+            return View(posts);
         }
 
         public IActionResult Post()
