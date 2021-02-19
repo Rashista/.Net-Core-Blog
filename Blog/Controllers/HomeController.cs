@@ -26,9 +26,11 @@ namespace Blog.Controllers
             return View(posts);
         }
 
-        public IActionResult Post()
+        public IActionResult Post(int id)
         {
-            return View();
+            var post = _repo.GetPost(id);
+
+            return View(post);
         }
 
         [HttpGet]
