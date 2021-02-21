@@ -24,7 +24,9 @@ E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.
 E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Blog.RazorTargetAssemblyInfo.cs
 E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Blog.Views.pdb
 E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Blog.csproj.CopyComplete
-E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Razor\Views\Home\Edit.cshtml.g.cs
 E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
 E:\C#\.Net-Core-Blog\Blog\bin\Debug\netcoreapp2.1\appsettings.json
 E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Razor\Views\Auth\Login.cshtml.g.cs
+E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Blog.csprojAssemblyReference.cache
+E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Edit.cshtml.g.cs
+E:\C#\.Net-Core-Blog\Blog\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Index.cshtml.g.cs
