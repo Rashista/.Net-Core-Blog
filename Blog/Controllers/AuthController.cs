@@ -36,7 +36,7 @@ namespace Blog.Controllers
         {
             await _signInManager.SignOutAsync();
 
-            return View();
+            return RedirectToAction("Index", "Home");
         }
     }
 }
