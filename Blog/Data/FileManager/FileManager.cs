@@ -19,22 +19,31 @@ namespace Blog.Data.FileManager
 
         public async Task<string> SaveImage(IFormFile image)
         {
-            var savePath = Path.Combine(_imagePath);
-
-            if (!Directory.Exists(savePath))
+            try
             {
-                Directory.CreateDirectory(savePath);
+                var savePath = Path.Combine(_imagePath);
+
+                if (!Directory.Exists(savePath))
+                {
+                    Directory.CreateDirectory(savePath);
+                }
+
+                var mime = image.FileName.Substring(image.FileName.LastIndexOf('.'));
+                var fileName = $"img_{DateTime.Now.ToString("dd-MM-yyyy-HH-mm-ss")}{mime}";
+
+                using (var fileStream = new FileStream(Path.Combine(savePath, fileName), FileMode.Create))
+                {
+                    await image.CopyToAsync(fileStream);
+                }
+
+                return fileName;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return "Error";
             }
 
-            var mime = image.FileName.Substring(image.FileName.LastIndexOf('.'));
-            var fileName = $"img_{DateTime.Now.ToString("dd-MM-yyyy-HH-mm-ss")}{mime}";
-
-            using (var fileStream = new FileStream(Path.Combine(savePath, fileName), FileMode.Create))
-            {
-                await image.CopyToAsync(fileStream);
-            }
-
-            return fileName;
         }
     }
 }
