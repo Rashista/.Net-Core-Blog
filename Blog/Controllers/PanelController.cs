@@ -1,5 +1,6 @@
 ﻿using Blog.Data.Repository;
 using Blog.Models;
+using Blog.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -31,19 +32,32 @@ namespace Blog.Controllers
         {
             if (id == null)
             {
-                return View(new Post());
+                return View(new PostViewModel());
             }
             else
             {
                 var post = _repo.GetPost((int)id);
 
-                return View(post);
+                return View(new PostViewModel()
+                {
+                    Id = post.Id,
+                    Title = post.Title,
+                    Body = post.Body,                    
+                });
             }
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit(Post post)
+        public async Task<IActionResult> Edit(PostViewModel vm)
         {
+            var post = new Post()
+            {
+                Id = vm.Id,
+                Title = vm.Title,
+                Body = vm.Body,
+                Image = "" //Handle image
+            };
+
             if (post.Id > 0)
             {
                 _repo.UpdatePost(post);
