@@ -25,9 +25,9 @@ namespace Blog.Controllers
         }
 
 
-        public IActionResult Index()
+        public IActionResult Index(string category)
         {
-            var posts = _repo.GetAllPosts();
+            var posts = String.IsNullOrEmpty(category) ? _repo.GetAllPosts() : _repo.GetAllPosts(category);
             return View(posts);
         }
 
