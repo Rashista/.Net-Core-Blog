@@ -78,7 +78,7 @@ using Blog.ViewModels;
             WriteLiteral("\r\n                -\r\n                ");
             EndContext();
             BeginContext(211, 116, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9b7a4a03562d48c28ddbcbe1687cca16", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "12618d11376d4abbb0455a4041328552", async() => {
                 BeginContext(279, 44, true);
                 WriteLiteral("\r\n                    Edit\r\n                ");
                 EndContext();
@@ -115,7 +115,7 @@ using Blog.ViewModels;
             WriteLiteral("\r\n                -\r\n                ");
             EndContext();
             BeginContext(364, 120, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bf94ef57946e40708b9d164175ce999d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8493456354904437ac399dd1d9c54be2", async() => {
                 BeginContext(434, 46, true);
                 WriteLiteral("\r\n                    Remove\r\n                ");
                 EndContext();
